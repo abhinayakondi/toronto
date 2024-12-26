@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 
 *{
     font-family: "Lexend", serif;  
@@ -36,6 +36,7 @@ nav.nav-container{
 .nav-left ul li a{
     font-size: 14px;
     color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
 }
 .nav-middle{
     display: flex;
@@ -61,7 +62,7 @@ nav.nav-container{
     color: black;
 }
 .home-card{
-    background-image:url("toronto_cityline.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("toronto_cityline.jpg");
     background-size: cover;  
     background-position: center;
     max-width: 100%;
@@ -70,12 +71,62 @@ nav.nav-container{
     padding: 20px;
     margin: 20px;
     display: flex;
-    justify-content:left;
-    align-items:end
+    justify-content:end;
+    flex-direction: column;
 }
 .home-card h1{
     color: white;
     font-family: "Playfair Display", serif;
+    letter-spacing: -8px;
     font-style: italic;
+    font-weight: 200;
     font-size: 150px;
+    max-height: 100%;
+    line-height: 1.05;
+}
+.home-card h2{
+    color: white;
+    font-family: "Red Hat Text", serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-indent: 25px; 
+}
+.sub-card{
+    background-color: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    min-width: max-content;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+}
+.sub-card h3{
+    color: white;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight:350;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.sub-card h4{
+    color: rgba(255, 255, 255, 0.943);
+    font-family: "Red Hat Text", serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+.contact-us-button{
+    padding: 18px 38px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+.contact-us-button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.445);
 }
