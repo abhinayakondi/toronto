@@ -208,21 +208,7 @@ section.products div h3:nth-child(1){
     font-weight: 530;
     letter-spacing: -1px;
 }
-.transit-card i {
-    background-color: rgb(255, 255, 255); 
-    color: rgb(68, 68, 68);
-    padding: 12px 12px; 
-    border-radius: 10px;
-    font-size: 25px;
-    line-height: 0;
-}.air-card i {
-    background-color: rgb(255, 255, 255); 
-    color: rgb(68, 68, 68);
-    padding: 12px 12px; 
-    border-radius: 10px;
-    font-size: 25px;
-    line-height: 0;
-}.programmatic-card i {
+section.products div i:nth-child(2){
     background-color: rgb(255, 255, 255); 
     color: rgb(68, 68, 68);
     padding: 12px 12px; 
