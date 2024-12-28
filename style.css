@@ -189,6 +189,7 @@ section.products .products-info p{
 }
 section.products .right-cards{
     width: 60%;
+    position:relative; 
 }
 section.products .right-cards > div{
     background-color: #f7f7f7;
@@ -199,10 +200,14 @@ section.products .right-cards > div{
     display: flex;
     flex-direction: column;
 }
-section.products .card-title{
+/* the button that toggles the text within */
+section.products button.card-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 section.products .card-title h3{
     color: black;
@@ -212,13 +217,22 @@ section.products .card-title h3{
     letter-spacing: -1px;
 }
 section.products .right-cards div i{
-    background-color: rgb(255, 255, 255); 
-    color: rgb(68, 68, 68);
+    background-color: #ffffff; 
+    color: #444444;
     padding: 12px 12px; 
     border-radius: 10px;
     font-size: 25px;
     line-height: 0;
 }
-section.products .expand-text{
-    margin-top: 6px;
+.expand-text{
+    display: none;
+}
+.transit-card.active .expand-text{
+    display: block;
+}
+.transit-card .expand-text{
+    display: none;
+    padding: 0 18px;
+    /* transition: max-height 0.2s ease-out; */
+    background-color: #f1f1f1;   
 }
