@@ -10,9 +10,9 @@
     box-sizing: border-box;
   }
 body{
-    background-color: #dedede;
+    background-color: #e7e7e7;
 }
-nav.nav-container{
+nav.container{
     background-color: #fff;
     margin: 20px;
     display: flex;
@@ -29,7 +29,7 @@ nav.nav-container{
     padding-left: 10px;
 }
 .nav-left ul li{
-    display: inline-block;
+    display:inline-block;
     list-style: none;
     margin-right: 20px;
 }
@@ -61,8 +61,23 @@ nav.nav-container{
     background-color: white;
     color: black;
 }
-.home-card{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("toronto_cityline.jpg");
+
+
+
+
+
+
+
+/* HOME SECTION */
+
+
+
+
+
+
+
+section.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("assets/toronto_cityline.jpg");
     background-size: cover;  
     background-position: center;
     max-width: 100%;
@@ -74,7 +89,7 @@ nav.nav-container{
     justify-content:end;
     flex-direction: column;
 }
-.home-card h1{
+section.home h1{
     color: white;
     font-family: "Playfair Display", serif;
     letter-spacing: -8px;
@@ -84,7 +99,7 @@ nav.nav-container{
     max-height: 100%;
     line-height: 1.05;
 }
-.home-card h2{
+section.home h2{
     color: white;
     font-family: "Red Hat Text", serif;
     font-size: 25px;
@@ -108,7 +123,7 @@ nav.nav-container{
     font-size: 25px;
     padding: 20px 0px;
 }
-.sub-card h4{
+.sub-card p{
     color: rgba(255, 255, 255, 0.943);
     font-family: "Red Hat Text", serif;
     font-weight: 100;
@@ -129,4 +144,89 @@ nav.nav-container{
 .contact-us-button:hover{
     cursor: pointer;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.445);
+}
+
+
+
+
+
+
+
+/* PRODUCTS SECTION */
+
+
+
+
+
+
+
+section.products{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 8px;
+    row-gap: 2px;
+
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px 30px 30px 50px;
+}
+.products-info{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.products-info h2{
+    color: black;
+    font-family: "Red Hat Text", serif;
+    font-size: 30px;
+    font-weight: 530;
+    letter-spacing: -1px;
+    max-width:max-content;
+    padding-bottom: 10px;;
+}
+.products-info p{
+    color: rgba(92, 92, 92, 0.943);
+    font-family: "Red Hat Text", serif;
+    font-weight: 500;
+    font-size: 15px;
+    max-width:max-content;
+}
+section.products div:nth-child(n+2){
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.products div h3:nth-child(1){
+    color: black;
+    font-family: "Red Hat Text", serif;
+    font-size: 22px;
+    font-weight: 530;
+    letter-spacing: -1px;
+}
+.transit-card i {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(68, 68, 68);
+    padding: 12px 12px; 
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 0;
+}.air-card i {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(68, 68, 68);
+    padding: 12px 12px; 
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 0;
+}.programmatic-card i {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(68, 68, 68);
+    padding: 12px 12px; 
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 0;
 }
