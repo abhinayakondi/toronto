@@ -98,6 +98,7 @@ section.home h1{
     font-size: 150px;
     max-height: 100%;
     line-height: 1.05;
+    user-select: none;
 }
 section.home h2{
     color: white;
@@ -105,6 +106,7 @@ section.home h2{
     font-size: 25px;
     font-weight: 400;
     text-indent: 25px; 
+    user-select: none;
 }
 .sub-card{
     background-color: rgb(0, 0, 0, 0.4);
@@ -227,7 +229,7 @@ section.products .right-cards div i{
 .expand-text{
     display: none;
 }
-.transit-card.active .expand-text{
+.right-cards .active .expand-text{
     display: block;
 }
 .transit-card .expand-text{
@@ -263,6 +265,65 @@ section.products .right-cards div i{
     margin: 20px;
 }
 
+
+
+
+
+
+/* TORONTO HIGHLIGHTS SECTION */
+
+
+
+
+
+
+
+
+
+
+section.highlights{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px 30px 30px 50px;
+}
+section.highlights > div{
+    display: flex;
+    justify-content: space-between;
+}
+section.highlights h2{
+    color: black;
+    font-family: "Red Hat Text", serif;
+    font-size: 30px;
+    font-weight: 530;
+    letter-spacing: -1px;
+    max-width:max-content;
+}
+section.highlights p{
+    color: rgba(92, 92, 92, 0.943);
+    font-family: "Red Hat Text", serif;
+    font-weight: 500;
+    font-size: 15px;
+    max-width:max-content;
+}
+.media-kit-button{
+    font-family: "Red Hat Text", serif;
+    font-weight: 580;
+    font-size: 15px;
+    padding: 18px 38px;
+    border: none;
+    border-radius: 15px;
+    border: 2px solid rgb(212, 211, 211);
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+}
+.media-kit-button:hover{
+    cursor: pointer;
+    border-color: black;
+}
 
 
 
