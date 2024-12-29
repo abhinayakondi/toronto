@@ -246,3 +246,26 @@ section.products .right-cards div i{
     padding: 20px;
     margin: 20px;
 }
+section.billboards{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+section.billboards > div{
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-grow: 1;
+    height: 50vh; 
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.bb1{
+    background-image: url("assets/Wall_ad.png");
+}
+.bb2{
+    background-image: url("assets/Bus_Station_Citylight.png");
+}
+.bb3{
+    background-image: url("assets/Bus_stop_daylight.png");
+} 
