@@ -178,7 +178,7 @@ section.products .products-info h2{
     font-weight: 530;
     letter-spacing: -1px;
     max-width:max-content;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
 }
 section.products .products-info p{
     color: rgba(92, 92, 92, 0.943);
@@ -236,6 +236,22 @@ section.products .right-cards div i{
     /* transition: max-height 0.2s ease-out; */
     background-color: #f1f1f1;   
 }
+
+
+
+
+
+
+
+/* MUSEUM PHOTO SECTION */
+
+
+
+
+
+
+
+
 .museum-photo{
     background-image: url("assets/rom_night.jpg");
     background-size:cover; 
@@ -246,22 +262,89 @@ section.products .right-cards div i{
     padding: 20px;
     margin: 20px;
 }
+
+
+
+
+
+
+
+/* DATA CARDS SECTION */
+
+
+
+
+
+
+
+
+
+section.data-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 10px;
+}
+section.data-cards > div{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-height: max-content;
+    align-items: center;
+    /* why is align-items and justify-content switched? */
+}
+section.data-cards > div > h5{
+    color: rgba(120, 120, 120, 0.943);
+    font-family: "Red Hat Text", serif;
+    font-weight: 500;
+    font-size: 15px;
+    max-width: max-content;
+    padding-top: 18px;
+}
+section.data-cards > div > h1{
+    color: black;
+    font-family: "Red Hat Text", serif;
+    font-size: 40px;
+    font-weight: 530;
+    letter-spacing: -1px;
+    max-width:max-content;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+/* BILLBOARDS SECTION */
+
+
+
+
+
+
+
+
 section.billboards{
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    gap: 10px; /* Sets a fixed distance of 10px between flex items */
 }
 section.billboards > div{
     background-size:cover;
     background-position: center;
     display: flex;
     flex-grow: 1;
-    height: 50vh; 
+    height: 80vh; 
     border-radius: 20px;
-    margin-right: 10px;
 }
 .bb1{
-    background-image: url("assets/Wall_ad.png");
+    background-image: url("assets/Wall_ad.png");   
 }
 .bb2{
     background-image: url("assets/Bus_Station_Citylight.png");
