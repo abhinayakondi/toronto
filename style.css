@@ -77,7 +77,7 @@ nav.container{
 
 
 section.home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("assets/toronto_cityline.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("assets/toronto_cityline.jpg");
     background-size: cover;  
     background-position: center;
     max-width: 100%;
@@ -397,19 +397,23 @@ section.billboards{
     gap: 10px; /* Sets a fixed distance of 10px between flex items */
 }
 section.billboards > div{
-    background-size:cover;
-    background-position: center;
     display: flex;
     flex-grow: 1;
-    height: 80vh; 
+    height: 53vw;
     border-radius: 20px;
 }
 .bb1{
     background-image: url("assets/Wall_ad.png");   
+    background-size: 257.14%;
+    background-position: center;
 }
 .bb2{
     background-image: url("assets/Bus_Station_Citylight.png");
+    background-size: 239.14%;
+    background-position: 50% 51.2%;
 }
 .bb3{
     background-image: url("assets/Bus_stop_daylight.png");
+    background-size: 159.43%;
+    background-position: 10% 55%;
 } 
