@@ -417,3 +417,55 @@ section.billboards > div{
     background-size: 159.43%;
     background-position: 10% 55%;
 } 
+
+
+
+
+
+
+/* FOOTERS SECTION */
+
+
+
+
+
+
+
+
+
+section.footer{
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section.footer > div > h3{
+    color: black;
+    font-family: "Red Hat Text", serif;
+    font-size: 22px;
+    font-weight: 530;
+    letter-spacing: -1px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+section.footer > div > a > h5{
+    color: rgba(92, 92, 92, 0.943);
+    font-family: "Red Hat Text", serif;
+    font-weight: 500;
+    font-size: 12.5px;
+    padding-bottom: 4px;
+}
+/* section.footer .col1{
+    background-color: aqua;
+}
+section.footer .col2{
+    background-color: aqua;
+}
+section.footer .col3{
+    background-color: aqua;
+}
+section.footer .col4{
+    background-color: aqua;
+} */
