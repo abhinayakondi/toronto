@@ -441,13 +441,11 @@ section.footer{
     justify-content: space-between;
 }
 .footer-links{
-    background-color: aquamarine;
     display: flex;
     gap: 80px;
     flex-grow: 2;
 }
 .contact-section{
-    background-color: aqua;
     flex-grow: 1;
     padding-left: 15px;
     width: 33vh;
