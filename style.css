@@ -193,32 +193,27 @@ section.products .right-cards{
     width: 60%;
     position:relative; 
 }
-section.products .right-cards > div{
+/* the button that toggles the text within */
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    border: none;
     background-color: #f7f7f7;
     border-radius: 20px;
     margin-bottom: 5px;
     padding: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
 }
-/* the button that toggles the text within */
-section.products button.card-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-section.products .card-title h3{
+section.products .card-title > h3{
     color: black;
     font-family: "Red Hat Text", serif;
     font-size: 22px;
     font-weight: 530;
     letter-spacing: -1px;
 }
-section.products .right-cards div i{
+section.products .card-title > i{
     background-color: #ffffff; 
     color: #444444;
     padding: 12px 12px; 
@@ -235,8 +230,8 @@ section.products .right-cards div i{
 .transit-card .expand-text{
     display: none;
     padding: 0 18px;
+    background-color: #f1f1f1; 
     /* transition: max-height 0.2s ease-out; */
-    background-color: #f1f1f1;   
 }
 
 
