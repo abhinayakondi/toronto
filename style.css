@@ -194,7 +194,7 @@ section.products .right-cards{
     position:relative; 
 }
 /* the button that toggles the text within */
-.card-title{
+button.card-title{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -205,6 +205,17 @@ section.products .right-cards{
     border-radius: 20px;
     margin-bottom: 5px;
     padding: 30px;
+    outline: none;
+}
+.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 30px;
+    width: 100%;
 }
 section.products .card-title > h3{
     color: black;
@@ -220,18 +231,6 @@ section.products .card-title > i{
     border-radius: 10px;
     font-size: 25px;
     line-height: 0;
-}
-.expand-text{
-    display: none;
-}
-.right-cards .active .expand-text{
-    display: block;
-}
-.transit-card .expand-text{
-    display: none;
-    padding: 0 18px;
-    background-color: #f1f1f1; 
-    /* transition: max-height 0.2s ease-out; */
 }
 
 

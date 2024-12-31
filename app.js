@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsByClassName("card-title");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -12,3 +12,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+// A javascript file should be linked at the end of an html file
+// Place the <script> tag right before the closing </body> tag. 
+// This ensures the HTML content is loaded before the JavaScript runs.
