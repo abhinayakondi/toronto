@@ -215,6 +215,9 @@ button.card-title{
     padding: 30px;
     outline: none;
 }
+button.card-title:hover{
+    background-color: #eeeeee;
+}
 .collapsible{
     background-color: #f7f7f7;
     border-radius: 20px;
