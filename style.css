@@ -215,13 +215,16 @@ button.card-title{
     padding: 30px;
     outline: none;
 }
+.collapsible{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+}
 .content-box{
     display: none;
     overflow: hidden;
-    background-color: #f7f7f7;
     border-radius: 20px;
     margin-bottom: 5px;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     width: 100%;
 }
 .content{
@@ -262,13 +265,6 @@ button.box:hover{
     background-color: black;
     color: white;
 }
-/* button.box > h5{
-    color: black;
-    font-family: "Red Hat Text", serif;
-    font-size:18px;
-    font-weight: 530;
-    letter-spacing: -1px;
-} */
 section.products .card-title > h3{
     color: black;
     font-family: "Red Hat Text", serif;
