@@ -212,30 +212,34 @@ button.card-title{
     background-color: #f7f7f7;
     border-radius: 20px;
     margin-bottom: 5px;
-    padding: 30px;
     outline: none;
-}
-button.card-title:hover{
-    background-color: #eeeeee;
 }
 .collapsible{
     background-color: #f7f7f7;
     border-radius: 20px;
+    overflow: hidden;
+    padding: 30px 30px 25px 30px;
+    margin-bottom: 6px;
 }
 .content-box{
-    display: none;
+    /* changing height of box from 0 to content height */
+    height: 0; 
     overflow: hidden;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    padding: 0px 30px 30px 30px;
     width: 100%;
+    transition: all 0.2s ease-in-out;
 }
 .content{
     display: grid;
+    padding-top: 20px;
+    padding-bottom: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content:space-between;
     gap: 5px;
     width: 100%;
+}
+.content2{
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 button.box{
     min-height: 130px;
